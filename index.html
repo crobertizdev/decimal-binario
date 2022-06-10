@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Fuente Red Rose 400 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Rose&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Iconos FonAwesome -->
+    <script
+      src="https://kit.fontawesome.com/4bd224e08c.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <title>Decimal a Binario</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <section class="center">
+        <form class="form" id="form">
+          <div class="form__input">
+            <label for="number">Introduce el número decimal:</label>
+            <input type="text" id="number" placeholder="20" maxlength="4" required />
+          </div>
+
+          <button class="form__button" type="submit" id="button">Convertir</button>
+
+          <div class="form__output">
+            <label for="result">Numero Binario:</label>
+            <input type="text" id="result" placeholder="Acá se muestra el resultado" />
+          </div>
+        </form>
+      </section>
+    </div>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
